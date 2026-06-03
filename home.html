@@ -22,10 +22,10 @@
 
     <div id="navmenu">
      <ul>
-         <ol class="navbuttons">
-             <li>Placeholder one</li>
-             <li>Placeholder two</li> 
-             <li>Placeholder three</li>
+         <ol id="navbuttons">
+             <li><a class="navbuttons" href="meetteam.html">Meet The Team</li>
+             <li><a class="navbuttons" href="art">Amazing Artwork</li> 
+             <li><a class="navbuttons" href="friends">Amazing Friends</li>
          </ol>
      </ul>
     </div>
@@ -61,10 +61,66 @@
         font-style: normal;
     }
 
-    .navbuttons {
+    #navbuttons {
         width: 250px;
         height: 100px;
         background-color: #BD2609;
+        padding-top: 50px;
+        padding-left: 100px;
+        width:90%;
+        float:left;
+    }
+
+    a:visited {
+        color: yellow;
+        background-color: orange;
+        text-decoration: none;
+    }
+
+    a:hover{
+     color:red;
+     background-color:green;
+     text-decoration:none;
+    }
+
+    a:active{
+     color:purple;
+     background-color:none;
+     text-decoration:none;
+   }
+
+   ul {
+     list-style-type:none;
+     margin:0;
+     padding:0;
+     overflow:hidden;
+     background-color:#114459;
+     text-align:center;
+     font-family: courier;
+     text-size: 3vw;
+     text-transform: uppercase;
+}
+
+li{
+     float:left;
+}
+
+li a{
+     display:block;
+     color:red;
+     text-align:center;
+     padding:15px;
+     text-decoration:none;
+}
+
+li a:hover{
+     background-color:#1A6889;
+}
+
+
+    
+    .navbuttons {
+         
     }
     
     #navmenu {
