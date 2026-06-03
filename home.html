@@ -18,14 +18,14 @@
 
 <body>
 <div id="page">
-    <img title="(B)RED logo" id="logo" img src="images/redbreadlogo.png" width="450px" height="325px" >
+    <img title="(B)RED logo" id="logo" img src="redbreadlogo.png" width="450px" height="325px" >
 
     <div id="navmenu">
      <ul>
          <ol id="navbuttons">
-             <li><a class="navbuttons" href="meetteam.html">Meet The Team</li>
-             <li><a class="navbuttons" href="art">Amazing Artwork</li> 
-             <li><a class="navbuttons" href="friends">Amazing Friends</li>
+             <li><a class="navbuttons" href="meetteam.html">Meet The Team</a></li>
+             <li><a class="navbuttons" href="art">Amazing Artwork</a></li> 
+             <li><a class="navbuttons" href="friends">Amazing Friends</a></li>
          </ol>
      </ul>
     </div>
@@ -46,7 +46,7 @@
     }
     */
     body {
-        background: url("images/breadbred.png");
+        background: url("breadbred.png");
         background-size: cover;
         background-repeat: repeat;
         background-size: 100px;
@@ -61,23 +61,14 @@
         font-style: normal;
     }
 
-    #navbuttons {
-        width: 250px;
-        height: 100px;
-        background-color: #BD2609;
-        padding-top: 50px;
-        padding-left: 100px;
-        width:90%;
-        float:left;
-    }
 
     a:visited {
-        color: yellow;
+        color: blue;
         text-decoration: none;
     }
 
     a:hover{
-     color:red;
+     color:#9A2109;
      text-decoration:none;
     }
 
@@ -88,10 +79,9 @@
 
    ul {
      list-style-type:none;
-     margin:0;
-     padding-left:0;
-     overflow:hidden;
-     background-color:#BD2609;
+
+     overflow:scrollbar;
+
      text-align:center;
      font-family: courier;
      text-transform: uppercase;
@@ -107,12 +97,20 @@ li{
 
 li a{
      display:block;
-     color:red;
-     text-align:center;
-     padding-left: 0px;
-     width: 250px;
-     height: 100px;
+     color:#C82609;
+
+     padding-top: 70px;
+     padding-right: 50px;
+     padding-left: 50px;
+     margin: 5px;
+
+     padding:0px;
+     margin:0px;
+
      text-decoration:none;
+     width: 150px;
+     height:90px;
+
 }
 
 li a:hover{
@@ -120,10 +118,7 @@ li a:hover{
 }
 
 
-    
-    .navbuttons {
-         
-    }
+
     
     #navmenu {
         float: right;
